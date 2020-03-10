@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>goibibo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js">
+    </script>
+</head>
+
+<body>
+
+    <header>
+
+
+        <div class="flex-container">
+            <div> <img src="https://cdn.freelogovectors.net/wp-content/uploads/2019/02/goibibo-logo.png" alt="" height="40px" width="110px"> </div>
+            <div> <img src="https://cdn4.iconfinder.com/data/icons/aiga-symbol-signs/444/aiga_departingflights-512.png" alt="flight" height="30px" width="30px"> </div>
+            <div> <img src=" https://www.pinclipart.com/picdir/big/82-820349_hotel-sleeping-accomodation-clip-art-black-white-hi.png" alt="hotle" height="30px" width="30px"></div>
+            <div> <img src="./Images/bus.png" height="30px" width="30px"></div>
+            <div> <img src="https://png2.cleanpng.com/sh/d326423752b8dc6fa2ded9dff6e5dc51/L0KzQYm3VMIyN5h7iZH0aYP2gLBuTfNiel5oh995dYTogn7wgB9ve154fdZqbj3khcX2TfRmfJJuhNt3Zz3khcX2TgZma6V0ip8AYXTlSLe6UfIxOZIASJCAMkC8RYqCU8E2OmU4S6o9OEG6QoK6TwBvbz==/kisspng-car-computer-icons-sedan-auto-detailing-auto-vector-5adb8f31b01a90.5209599315243384817213.png"
+                    alt="" height="30px" width="30px"></li>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div> <img src=" http://www.clker.com/cliparts/R/z/0/r/z/J/hotel-md.png" alt="hotle" height="30px" width="30px"></div>
+            <div><img src="https://cdn4.iconfinder.com/data/icons/aiga-symbol-signs/444/aiga_departingflights-512.png" alt="flight" height="30px" width="30px"></div>
+
+        </div>
+        <div class="dropdown">
+            <span class="more">More</span>
+            <div class="dropdown-content">
+                <p>International Flights</p>
+                <p>Mobile Apps</p>
+                <p>Destination</p>
+                <p>Aks</p>
+                <p>Route Planner</p>
+                <p>Offer</p>
+                <p>Promotion</p>
+                <p>Review</p>
+                <p>Rating</p>
+                <p>Train Route Status</p>
+                <p>Cheak PNR Status</p>
+
+            </div>
+        </div>
+
+    </header>
+
+    <div class="userdata">
+        <div>
+            <table class="table1">
+                <tr>
+                    <th class="myheading"> Book a train ticket online</th>
+                    <th class="pnr">Check PNR Status</th>
+                    <th class="pnr">Train Running Status</th>
+                    <tr>
+                        <td class="data">From</td>
+                        <td class="data">To</td>
+                    </tr>
+                </tr>
+                <tr>
+                    <th> <input type="text" id="origin" placeholder="Enter city" class="from" /></th>
+                    <th> <input type="text" id="destination" placeholder="Enter city" class="to" /></th>
+
+                </tr>
+                <tr>
+                    <td class="data">choose date</td>
+                    <th> <img src="https://cdn.icon-icons.com/icons2/1674/PNG/512/swap_110974.png" alt="interchange" onclick="swaping()" width="40px" height="40px" class="interchange"> </th>
+                </tr>
+                <tr>
+                    <th> <input type="date" id="caldate" placeholder="Enter city" class="calander"></th>
+                    <th> <input type="submit" id="submit" value="Search Train" class="submit-style" onclick="validation()"></th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="error-message">
+                            <p id=error></p>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="input-data">
+                            <p id="dispaly-from"> </p>
+                            <p id="display-destination"></p>
+                            <p id="display-date"></p>
+                        </div>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </div> <br>
+    <div class="banner">
+        <img src="https://gos3.ibcdn.com/train-1575608803.jpg" alt="banner" width="90%" height="90%">
+
+    </div>
+    <table>
+        <tr>
+            <th>
+                <div class="field">
+                    <img src="https://gos3.ibcdn.com/first-rail-lp-1574395621.jpg" alt="field1" width="350px" height="150px">
+                    <span>Flat Rs. 120 off on transactions above Rs. 1000</span>
+            </th>
+            </div>
+
+
+
+            <th>
+                <div class="field">
+                    <img src="https://gos3.ibcdn.com/first-rail-lp-1574395621.jpg" alt="field1" width="350px" height="150px">
+                    <span>Flat Rs. 120 off on transactions above Rs. 1000</span>
+                </div>
+            </th>
+            <th>
+                <div class="field">
+                    <img src="https://gos3.ibcdn.com/first-rail-lp-1574395621.jpg" alt="field1" width="350px" height="150px">
+                    <span>Flat Rs. 120 off on transactions above Rs. 1000</span>
+            </th>
+        </tr>
+        <tr>
+
+        </tr>
+    </table>
+    </div>
+    <div class="faqs">
+        <h2>FAQs About Train Ticket Booking</h2>
+    </div>
+    <footer>
+        <table>
+            <tr>
+                <th>follow Us</th>
+                <th class="follow"> Book Tickets faster. Download our mobile Apps</th>
+            </tr>
+            <tr>
+                <th> <img src="https://www.ifsecglobal.com/wp-content/uploads/2019/10/Social-media-icons-e1570024833924.jpg" alt="" width="100px" height="50px"></th>
+                <th class="follow"> <img src="https://www.pinpng.com/pngs/m/44-440070_app-store-google-play-png-ios-android-app.png" alt="" width="100px" height="50px"></th>
+            </tr>
+        </table>
+        <div class="payment">
+            <img src="https://user-images.githubusercontent.com/52581/44382006-3db09f80-a567-11e8-92fa-fb7dc45ea6e7.png" alt="" width="200px" height="50px">
+        </div>
+    </footer>
+</body>
+
+</html>

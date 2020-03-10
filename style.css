@@ -1,0 +1,182 @@
+body {
+    background-color: rgb(212, 207, 205);
+}
+
+.flex-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(255, 255, 255);
+}
+
+.flex-container>div {
+    width: 90%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.flex-container>div>img:hover {
+    transform: scale(1.08);
+}
+
+.userdata {
+    margin-top: 10px;
+    height: 350px;
+    width: 90%;
+    position: relative;
+    left: 60px;
+    background-color: rgb(33, 33, 168);
+}
+
+.from {
+    width: 500px;
+    height: 40px;
+    position: relative;
+    left: 50px;
+    text-align: center;
+}
+
+.myheading {
+    font-size: 35px;
+    color: white;
+}
+
+.data {
+    position: relative;
+    left: 20%;
+}
+
+.interchange {
+    position: relative;
+    right: 170px;
+    bottom: 50px;
+    cursor: pointer;
+}
+
+.interchange:hover {
+    transform: scale(1.2);
+}
+
+.to {
+    width: 500px;
+    height: 40px;
+    position: relative;
+    left: 110px;
+    text-align: center;
+}
+
+.calander {
+    width: 500px;
+    height: 40px;
+    position: relative;
+    left: 50px;
+    text-align: center;
+}
+
+.submit-style {
+    width: 200px;
+    height: 40px;
+    position: relative;
+    left: 130px;
+    text-align: center;
+    background-color: rgb(238, 80, 23);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+
+.submit-style:hover {
+    background-color: rgb(241, 105, 55);
+    transform: scale(1.1);
+}
+
+.banner {
+    position: relative;
+    left: 60px;
+}
+
+.error-message {
+    text-align: center;
+    color: red;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.842);
+}
+
+.input-data {
+    background-color: rgba(250, 101, 101, 0.151);
+    text-align: center;
+    font-weight: bold;
+    color: rgb(199, 247, 223);
+    width: 500px;
+}
+
+.field {
+    border-radius: 20px;
+    margin: 20px 30px 30px 40px;
+    padding-bottom: 70px;
+    width: 350px;
+    height: 150px;
+    background-color: white;
+}
+
+footer {
+    padding: 10px;
+    width: 98%;
+    height: 50%;
+    background-color: whitesmoke;
+    position: relative;
+    top: 50px;
+}
+
+.follow {
+    position: relative;
+    left: 70%;
+}
+
+.payment {
+    position: absolute;
+    right: 60px;
+    top: 20px;
+}
+
+.more {
+    position: absolute;
+    left: 50%;
+    top: 8%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(218, 218, 218, 0.952);
+    width: 200px;
+    left: 50%;
+    top: 11%;
+    z-index: 1;
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content>p:hover {
+    background-color: rgba(40, 52, 228, 0.644);
+    cursor: pointer;
+}
+
+.dropdown>span:hover {
+    color: rgba(38, 24, 233, 0.637);
+}
+
+.pnr {
+    color: white;
+    text-decoration: underline;
+}
+
+.faqs {
+    margin-left: 50px;
+}
